@@ -28,13 +28,7 @@ import com.google.zxing.Result;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.common.HybridBinarizer;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
- 
-/**
- * 
-  
- * @author Master.Xia v1.0 date:2013年06月12日13:32:18
- * @author Master.Xia v2.0 date:2017年04月06日23:46:11
- */
+
 public class QRcodeUtil {
  
     private static final String CHARSET = "utf-8";
