@@ -1,0 +1,13 @@
+server:
+  port: 8000
+spring:
+  thymeleaf:
+    cache: false
+
+paypal:
+  mode: sandbox
+  client:
+    app: AXMS5NlYf7N3nE82KYPBLbLlymQTsRxDfEa3YtdwGdlXohmIsItNdWAauKbGQE0gifIkRLS-RL3Bz9ex
+    secret: EIQbM5lMuG0C4R5r2z_2xMupKugdSzlKnGXY2tDfaJalzAaTan7ojpeiamT_n-DJ6ANel4Dk8LewkuiJ
+
+

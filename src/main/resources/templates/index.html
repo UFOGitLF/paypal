@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8" />
+<title>Insert title here</title>
+</head>
+<body>
+<form method="post" th:action="@{/payQrCode}">
+	<input type="text" name="price" placeholder="请输入支付金额"/>
+	<button type="submit">去支付</button>
+</form>
+</body>
+</html>
